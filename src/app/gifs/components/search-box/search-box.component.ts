@@ -21,9 +21,9 @@ export class SearchBoxComponent {
 
   // Inyectamos el servicio
   constructor( private gifsService: GifsService ){
-    if(gifsService.tagsHistory.length > 0){
-      this.gifsService.searchTag(gifsService.tagsHistory[0]);
-    }
+    //if(gifsService.tagsHistory.length > 0){
+    //  this.gifsService.searchTag(gifsService.tagsHistory[0]);
+    //}
   }
 
   searchTag(){
